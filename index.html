@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="shortcut icon" href="android-chrome-192x192.png" type="image/x-icon">
+  <title>contagem-regressiva</title>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+  <nav>
+    <label for="">
+      <input type="checkbox" class="toggleTheme">
+    </label>
+  </nav>
+  <main>
+    <div class="container-numbers">
+      <input type="date" class="dateInput outputNumber" placeholder="teste">
+    </div>
+    <div class="containerBtn">
+      <button class="saveDate">Iniciar contagem</button>
+      <button class="limpa">Limpar timer</button>
+    </div>
+    <ul class="countdown">
+      <li class="dias">
+        <div>
+          <span class="data-time">00</span>
+          <div>dia(s)</div>
+        </div>
+      </li>
+      <li class="horas">
+        <div>
+          <span class="data-time">00</span>
+          <div>hora</div>
+        </div>
+      </li>
+      <li class="minutos">
+        <div>
+          <span class="data-time">00</span>
+          <div>min</div>
+        </div>
+      </li>
+      <li class="segundos">
+        <div>
+          <span class="data-time">00</span>
+          <div>sec</div>
+        </div>
+      </li>
+    </ul>
+  </main>
+  <script src="js/countdown.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/toggle.js"></script>
+</body>
+</html>
